@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+}
+
+.label {
+    position: relative;
+}
+
+.toogle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
